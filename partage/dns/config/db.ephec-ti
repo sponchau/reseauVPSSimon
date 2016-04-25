@@ -1,0 +1,17 @@
+$TTL 86400;
+$ORIGIN wt12.ephec-ti.be.
+@       IN      SOA     ns.wt12.ephec-ti.be. HE201236.students.ephec.be. (
+        2007060100;
+        3600;
+        600;
+        86400;
+        3600);
+
+
+@       IN      NS      ns.wt12.ephec-ti.be.
+@       IN      MX      10      mail.wt12.ephec-ti.be.
+ns              A       51.255.40.223
+b2b             A       51.255.34.191
+intranet        A       51.255.34.128
+mail    IN      A       51.255.34.191
+www             CNAME   ns
